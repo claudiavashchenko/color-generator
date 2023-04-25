@@ -25,7 +25,10 @@ header .main-section {
 header .sub-section {
     height: 5vh;
     color: rgb(167, 167, 167);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 header #spawn-button {
     border: none;
