@@ -38,3 +38,16 @@ header #spawn-button {
 header #spawn-button:active {
     background-color: rgb(62, 54, 112);
 }
+.colors-container {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+.colors-container div {
+    height: 100%;
+    width: 25%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
